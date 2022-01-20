@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/commentdb
+    username: sai
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
